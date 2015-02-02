@@ -8,13 +8,13 @@
     <title>Pēc10</title>
 
     <!-- Bootstrap -->
-	{{ HTML::style('css/bootstrap.css') }}
-	{{ HTML::style('css/bootstrap-theme.css') }}
+	{{ Html::style('css/bootstrap.css') }}
+	{{ Html::style('css/bootstrap-theme.css') }}
 	
 
     <!-- siimple style -->
 
-	{{ HTML::style('css/style.css') }}
+	{{ Html::style('css/style.css') }}
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     
@@ -31,7 +31,7 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<h1>PĒC10.LV</h1>
-					<h2 class="subtitle">Mēs cītīgi strādājam, lai izveidotu šo vietni!</h2>
+					<h2 class="subtitle">Mēs cītīgi strādājam, lai izveidotu šo vietni !</h2>
 					
 					
 					
