@@ -1,41 +1,50 @@
-<html>
-	<head>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
+    <title>Pēc10</title>
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
+    <!-- Bootstrap -->
+	{{ HTML::style('css/bootstrap.css') }}
+	{{ HTML::style('css/bootstrap-theme.css') }}
+	
 
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
+    <!-- siimple style -->
 
-			.title {
-				font-size: 72px;
-				margin-bottom: 40px;
-			}
-		</style>
-	</head>
-	<body>
+	{{ HTML::style('css/style.css') }}
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+	<div id="wrapper">
 		<div class="container">
-			<div class="content">
-				<div class="title">Be right back.</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h1>PĒC10.LV</h1>
+					<h2 class="subtitle">Mēs cītīgi strādājam, lai izveidotu šo vietni!</h2>
+					
+					
+					
+				</div>
+				
 			</div>
+				
 		</div>
-	</body>
+	</div>
+	<p class="copyright">Copyright &copy; 2015 - pec10.lv</p>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+	
+	
+  </body>
 </html>
