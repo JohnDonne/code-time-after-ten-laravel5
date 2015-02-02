@@ -8,13 +8,13 @@
     <title>Pēc10</title>
 
     <!-- Bootstrap -->
-	{{ Html::style('css/bootstrap.css') }}
-	{{ Html::style('css/bootstrap-theme.css') }}
+	{!! Html::style('css/bootstrap.css') !!}
+	{!! Html::style('css/bootstrap-theme.css') !!}
 	
 
     <!-- siimple style -->
 
-	{{ Html::style('css/style.css') }}
+	{!! Html::style('css/style.css') !!}
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     
